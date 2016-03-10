@@ -1,0 +1,53 @@
+.moduleNode {
+  color: #FFFFD0;
+  font-size: 26px;
+  font-weight: bold;
+  border: 1px none blue;
+  border-radius: 50px;
+}
+
+.agendaNode {
+  color: #F0F0F0;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 2px;
+  border: 1px none red;
+  border-radius: 40px;
+}
+
+.moduleNode:hover, .agendaNode:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#searchBox {
+  height: 26px;
+  width: 350px;
+  font-size: 20px;
+}
+
+.cloud {
+  transition: left 400ms linear, top 400ms linear;
+}
+
+.agendaNode {
+  transition: left 400ms linear, top 400ms linear;
+}
+
+.pokus-enter {
+  font-size: 14px;
+}
+
+.pokus-enter.pokus-enter-active {
+  font-size: 20px;
+  transition: font-size 1000ms ease-in-out;
+}
+
+.pokus-leave {
+  font-size: 20px;
+}
+
+.pokus-leave.pokus-leave-active {
+  font-size: 14px;
+  transition: font-size 700ms ease-in-out;
+}
